@@ -1,13 +1,14 @@
 import cv2
-
+from PIL import Image
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv2.imread("soccer.jpg")
+img = cv2.imread("C:\\Users\\jbati\\Desktop\\lena.jpg")
 
-color = ('b','g','r')
+img.show()
 print("teste")
-cv2.imshow("teste", img)
+
+
 
 
 
